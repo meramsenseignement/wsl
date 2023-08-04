@@ -36,7 +36,7 @@ sudo usermod -aG docker $USER && newgrp docker <<END
 	kubectl get namespaces 2>/dev/null >/dev/null
 	if [ $? -eq 0 ]
 	then
-	  echo "Minukube est installé et foncitonne correctement"
+	  echo "Minukube est installé et fonctionne correctement"
 	  echo "Installation OK"
 	else  
 	  echo "Il y a un soucis dans l'installation de Minikube"
